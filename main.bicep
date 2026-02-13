@@ -34,7 +34,7 @@ resource ipGroupWorkloads 'Microsoft.Network/ipGroups@2024-07-01' = {
       '10.2.0.0/16'
     ]
   }
-}
+} 
 
 resource ipGroupDNS 'Microsoft.Network/ipGroups@2024-07-01' = {
   location: location
